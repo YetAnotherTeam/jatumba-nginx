@@ -1,4 +1,5 @@
 FROM umputun/nginx-le:latest
+MAINTAINER Bulat Khasanov <afti@yandex.ru>
 
 VOLUME ["./etc/ssl:/etc/nginx/ssl", "./conf.d/default.conf:/etc/nginx/service.conf"]
 
